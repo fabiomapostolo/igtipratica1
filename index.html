@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width", initial-scale="1.0">
+        <title>Sistema de cores RGB</title>
+        <link rel="stylesheet" type="text/css" href="./css/style.css"  />
+    </head>    
+    <body>    
+          <h1 id="topo">
+              Seletor de Cores RGB                     
+          </h1>      
+            
+
+        <div class = "esquerda">            
+            <p>R - Red</p>
+            <p >G - Green</p>
+            <p>B - Blue</p>
+        </div>
+
+        <div class="meio">
+           <p><input type="range" id="ranger" min="0" max="255" /></p> 
+           <p><input type="range" id="rangeg" min="0" max="255" /></p>
+           <p><input type="range" id="rangeb" min="0" max="255" /></p>
+        </div>
+
+        <div class="direita">
+            <p><input type="text" id="textr" disabled/></p>
+            <p><input type="text" id="textg" disabled/></p>
+            <p><input type="text" id="textb" disabled/></p>
+        </div>   
+        
+        <div id="resultado"></div>
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>
